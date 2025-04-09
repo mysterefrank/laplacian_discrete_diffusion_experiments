@@ -189,7 +189,7 @@ for epoch in range(num_epochs):
 """
 Use the learned model to sample from p_K -> p_{K-1} -> ... -> p_0
     We'll define p_K as uniform over states [0..7].
-    Then at each step: x_{k}, ~ model( x_{k+1}, k+1 )
+    Then at each step: x_{k}, ~ model( x_{k+1}, k+1
 """
 
 
